@@ -1,0 +1,34 @@
+{
+  "name": "codrasil/breadcrumbs",
+  "description": "A Simple Breadcrumbs for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Lioneil P. Dionisio",
+      "email": "john.dionisio1@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Codrasil\\Breadcrumbs\\": "src/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Codrasil\\Breadcrumbs\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Codrasil\\Breadcrumbs\\BreadcrumbsServiceProvider"
+      ]
+    }
+  }
+}
